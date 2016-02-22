@@ -4,7 +4,7 @@ import cx from 'classnames';
 export default class Label extends React.Component {
   static get propTypes(){
     return {
-      literal: React.PropTypes.string,
+      literal: React.PropTypes.string.isRequired,
       class: React.PropTypes.string
     };
   }

@@ -1,9 +1,36 @@
 # sui-label
 
-## Description
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam commodi esse quis ipsam a iusto aut ratione ex optio ut! Illum alias voluptatibus dolores, perferendis deserunt totam illo reiciendis voluptatem.
+## Demo page
+- Check out (Sui-Label demo page)[http://sui-components.github.io/sui-label/]
 
-## Instalation
+## Description
+A label container to display a custom literal and class.
+
+## Usage
+Render component passing two props, `literal` and `class`.
+- `literal` : Required prop to display label's content.
+- `class` : Optional prop to pass an additional custom class so you can style your label.
+
+An example of the `sui-Label` component implementation is:
+
+```javascript
+
+// JSX file
+ReactDom.render(
+    <Label literal={'Default Label'} class={'my-Custom--label'} />,
+document.getElementById('main')
+);
+```
+```css
+// Sass styling
+.my-Custom-label {
+    background-color: $c-background;
+    color: $c-foreground;
+}
+
+```
+
+## Installation
 Clone this repository and run:
 ```
 $ npm install
@@ -29,7 +56,4 @@ $ npm run doc
 ```
 
 That will publish in a gh-page for `docs` folder.
-What is a component without a public demo, isn´t ?!
-
-## Usage
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non perspiciatis, quod eum perferendis, facere enim hic. Quibusdam deleniti, distinctio. Molestias error quibusdam quo similique, laborum iste libero dolorum saepe et.
+What is a component without a (public demo)[http://sui-components.github.io/sui-label/], isn´t ?!
