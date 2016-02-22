@@ -11,7 +11,7 @@ import './styles/demo.scss';
 
 ReactDom.render(
     <div className='separator'>
-      <Label literal={'Default Label'} />
+      <Label literal={'Default Label'} class={'re-Label--opportunity'} />
     </div>,
   document.getElementById('main')
 );
