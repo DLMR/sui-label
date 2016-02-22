@@ -1,7 +1,7 @@
 # sui-label
 
 ## Demo page
-- Check out (Sui-Label demo page)[http://sui-components.github.io/sui-label/]
+- Check out [Sui-Label demo page](http://sui-components.github.io/sui-label/)
 
 ## Description
 A label container to display a custom literal and class.
@@ -56,4 +56,4 @@ $ npm run doc
 ```
 
 That will publish in a gh-page for `docs` folder.
-What is a component without a (public demo)[http://sui-components.github.io/sui-label/], isn´t ?!
+What is a component without a [public demo](http://sui-components.github.io/sui-label/), isn´t ?!
