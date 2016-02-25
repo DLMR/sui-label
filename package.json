@@ -1,6 +1,6 @@
 {
   "name": "@schibstedspain/sui-label",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/",
   "scripts": {
     "clean:dist": "rm -Rf ./dist/*",
@@ -37,8 +37,8 @@
     "classnames": "2.2.3"
   },
   "devDependencies": {
-    "@schibstedspain/frontend-pre-commit-rules": "latest",
-    "@schibstedspain/theme-basic": "latest",
+    "@schibstedspain/frontend-pre-commit-rules": "6.6.1",
+    "@schibstedspain/theme-basic": "3.0.1",
     "babel": "6.1.18",
     "babel-cli": "6.2.0",
     "babel-core": "6.2.1",
